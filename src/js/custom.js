@@ -68,6 +68,8 @@ $(document).ready(function() {
         $BODY.toggleClass('nav-md nav-sm');
 
         setContentHeight();
+
+        $('.dataTable').each ( function () { $(this).dataTable().fnDraw(); });
     });
 
     // check active menu
@@ -134,9 +136,11 @@ $(document).ready(function() {
 // /Tooltip
 
 // Progressbar
-if ($(".progress .progress-bar")[0]) {
-    $('.progress .progress-bar').progressbar();
-}
+$(document).ready(function() {
+	if ($(".progress .progress-bar")[0]) {
+	    $('.progress .progress-bar').progressbar();
+	}
+});
 // /Progressbar
 
 // Switchery
@@ -238,7 +242,7 @@ if (typeof NProgress != 'undefined') {
         NProgress.start();
     });
 
-    $(window).load(function () {
+    $(window).on('load', function() {
         NProgress.done();
     });
 }

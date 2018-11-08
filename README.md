@@ -9,11 +9,16 @@ We would love to see how you use this awesome admin template. You can notify us 
 
 
 ## Theme Demo
-![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg 
+"Gentelella Theme Browser Preview")
 
 **[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**
 
-## Installation via Package Manger
+## Documentation
+
+**[Documentation](https://puikinsh.github.io/gentelella/)**
+
+## Installation via Package Manager
 
 Our goal is to make it installable on different Package Manager! Do you want to use it on your favorite Package Manager and you know how? Pull request all the way! 
 
@@ -30,10 +35,18 @@ bower install gentelella --save
 ```
 npm install gentelella --save
 ```
+
+**yarn**
+
+```
+yarn add gentelella --save
+```
 ## How to contribute
 To contribute, please ensure that you have stable [Node.js](https://nodejs.org/) and [npm](https://npmjs.com) installed.
 
 Test if Gulp CLI is installed by running `gulp --version`.  If the command isn't found, run `npm install -g gulp`.  For more information about installing Gulp, see the Gulp's [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
+
+To have all gulp dependencies run ```npm install```
 
 If `gulp` is installed, follow the steps below.
 
@@ -41,6 +54,23 @@ If `gulp` is installed, follow the steps below.
 2. Run `gulp`, this will open gentelella on your default browser
 3. Now you can code, code and code!
 4. Submit a pull request
+
+## Gentelella for other platforms and frameworks
+
+* [Gentelella on Ruby on Rails 4](https://github.com/iogbole/gentelella_on_rails) thanks to Israel Ogbole.
+* [Gentelella on Rails 5.x](https://github.com/mwlang/gentelella-rails) thanks to Michael Lang
+* [Gentelella on Smarty 3](https://github.com/microvb/otp-thing) with one time password generator, validator, and QR code generator that has no web dependencies (self-contained) in PHP thanks to MicroVB INC
+* [Gentelella integrated into Symfony 3](https://github.com/krzysiekpiasecki/Gentelella) full stack PHP framework thanks to Krzysztof Piasecki.
+* [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella) with an asset bundle, a layout template and some widgets.
+* [Gentelella on Angular 2](https://github.com/kmkatsma/angular2-webpack-starter-gentelella) Angular Webpack Starter modified to utilize the Gentelella.
+* [Gentelella on Aurelia](https://github.com/kmkatsma/aurelia-gentelella) Typescript webpack skeleton modified to utilize the Gentelella.
+* [Gentelella on Laravel](https://github.com/Labs64/laravel-boilerplate) PHP / Laravel 5 boilerplate project with Gentelella Admin theme support.
+* [Gentelella on Django](https://github.com/GiriB/django-gentelella) Gentelella modified to fit as a Django app
+* [Gentelella on Flask](https://github.com/afourmy/flask-gentelella) Gentelella modified to fit as a Flask app
+* [Gentelella on CakePHP 3](https://github.com/backstageel/cakephp-gentelella-theme) Gentelella modified to work on CakePHP
+* [Gentelella right to left](https://github.com/mortezakarimi/gentelella-rtl) Gentelella modified to work with right to left languages like Persian
+
+Let us know if you have done integration for this admin template on other platforms and frameworks and we'll be happy to share your work.
 
 ## Scripts included:
 * Bootstrap
@@ -79,17 +109,6 @@ If `gulp` is installed, follow the steps below.
 * Autosize - resizes text area to fit text
 * validator - HTML from validator using jQuery
 * jQuery Smart Wizard
-
-## Gentelella for other platforms and frameworks
-
-* [Gentelella on Ruby on Rails 4](https://github.com/iogbole/gentelella_on_rails) thanks to Israel Ogbole.
-* [Gentelella on Smarty 3](https://github.com/microvb/otp-thing) with one time password generator, validator, and QR code generator that has no web dependencies (self-contained) in PHP thanks to MicroVB INC
-* [Gentelella integrated into Symfony 3](https://github.com/krzysiekpiasecki/Gentelella) full stack PHP framework thanks to Krzysztof Piasecki.
-* [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella) with an asset bundle, a layout template and some widgets.
-* [Gentelella on Angular 2](https://github.com/kmkatsma/angular2-webpack-starter-gentelella) Angular Webpack Starter modified to utilize the Gentelella.
-* [Gentelella on Aurelia](https://github.com/kmkatsma/aurelia-gentelella) Typescript webpack skeleton modified to utilize the Gentelella.
-
-Let us know if you have done integration for this admin template on other platforms and frameworks and we'll be happy to share your work.
 
 ## Other templates and useful resources
 * [Free Bootstrap Admin Templates](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/ "Bootstrap Admin Templates on Colorlib") - List of the best Free Bootstrap admin dashboard templates that are available for free for personal and commercial use.
